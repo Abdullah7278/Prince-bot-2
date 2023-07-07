@@ -21,8 +21,8 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/3ff1c03c7f6e559cc1939.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/cf60231feb9f4f29cffbf.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/274e3c548189bd46a9d4c.jpg https://telegra.ph/file/712aaa4e9624482f63e52.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/712aaa4e9624482f63e52.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/2ab4dc8b7270701262732.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
@@ -57,8 +57,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/PR_allmovise_0')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ak_bot_support')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/allmovises0')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ak_bot_support')
